@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Ayham Saimouaa</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" type="image/jpg" href="A.jpg" />
+    <link rel="apple-touch-icon" href="A.jpg" />
+  </head>
+  <body>
+    <header class="text-center py-5">
+      <h1 class="display-4 text-info">
+        Hi I'am <span id="typing-text"></span><span class="cursor">|</span>
+      </h1>
+      <h3 class="lead text-secondry">
+        IT Engineering Student & Flutter Developer
+      </h3>
+    </header>
+
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 mb-5">
+          <div
+            class="project-card shadow-lg rounded-4 overflow-hidden bg-dark border border-secondry"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              id="trixCarousel"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="trixCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="trixCarousel"
+                  data-bs-slide-to="1"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="trixCarousel"
+                  data-bs-slide-to="2"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="trixCarousel"
+                  data-bs-slide-to="3"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="trixCarousel"
+                  data-bs-slide-to="4"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="trixCarousel"
+                  data-bs-slide-to="5"
+                  aria-current="true"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="images/trix/1.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/trix/2.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/trix/3.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/trix/4.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/trix/5.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/trix/6.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#trixCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#trixCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body p-4 text-center">
+              <h2 class="card-title text-accent mb-3">Trix Score Tracker</h2>
+              <p class="card-text text-secondry mb-4 mx-auto">
+                Smart application that handles all the rules of the game with
+                automatic drumming and protection.
+              </p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a
+                  href="https://github.com/AyhamSai/first-portfolio/releases/download/v1.0/trix-app.apk"
+                  class="btn btn-outline-info btn-lg px-5 rounded-pill shadow-sm"
+                  download
+                >
+                  <i class="bi bi-download me-2">Download Apk</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5" data-aos="fade-up" data-aos-duration="1000">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 mb-5">
+          <div
+            class="project-card shadow-lg rounded-4 overflow-hidden bg-dark border border-secondry"
+          >
+            <div
+              id="shopCarousel"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="shopCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="shopCarousel"
+                  data-bs-slide-to="1"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="shopCarousel"
+                  data-bs-slide-to="2"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="shopCarousel"
+                  data-bs-slide-to="3"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="shopCarousel"
+                  data-bs-slide-to="4"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="shopCarousel"
+                  data-bs-slide-to="5"
+                  aria-current="true"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="images/shop/1.png"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/shop/2.png"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/shop/3.png"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/shop/4.png"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/shop/5.png"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/shop/6.png"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#shopCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#shopCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body p-4 text-center">
+              <h2 class="card-title text-accent mb-3">Step_Up_Shop</h2>
+              <p class="card-text text-secondry mb-4 mx-auto">
+                A full-featured e-commerce mobile application designed for a
+                specialized shoe store. The app provides a seamless shopping
+                experience with real-time data management and a robust backend.
+              </p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a
+                  href="https://github.com/AyhamSai/first-portfolio/releases/download/v1.0/shop-app.apk"
+                  class="btn btn-outline-info btn-lg px-5 rounded-pill shadow-sm"
+                  download
+                >
+                  <i class="bi bi-download me-2">Download Apk</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 mb-5">
+          <div
+            class="project-card shadow-lg rounded-4 overflow-hidden bg-dark border border-secondry"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              id="chatCarousel"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="chatCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="chatCarousel"
+                  data-bs-slide-to="1"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="chatCarousel"
+                  data-bs-slide-to="2"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="chatCarousel"
+                  data-bs-slide-to="3"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="chatCarousel"
+                  data-bs-slide-to="4"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="chatCarousel"
+                  data-bs-slide-to="5"
+                  aria-current="true"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="images/chatting/1.png"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/chatting/2.png"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/chatting/3.png"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="images/chatting/4.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#chatCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#chatCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body p-4 text-center">
+              <h2 class="card-title text-accent mb-3">MessageMe</h2>
+              <p class="card-text text-secondry mb-4 mx-auto">
+                A real-time chat application that allows users to send and
+                receive messages instantly. It features a user-friendly
+                interface, secure authentication, and seamless communication
+                between users.
+              </p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a
+                  href="https://github.com/AyhamSai/chatting_app/releases/download/v1.0.0/MessageMe.apk"
+                  class="btn btn-outline-info btn-lg px-5 rounded-pill shadow-sm"
+                  download
+                >
+                  <i class="bi bi-download me-2">Download Apk</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="container my-5 text-center" data-aos="fade-up">
+      <h2 class="text-info mb-4">Technical Skills</h2>
+      <div class="d-flex flex-wrap justify-content-center gap-2">
+        <span class="badge rounded-pill bg-dark border border-info p-3"
+          >Flutter</span
+        >
+        <span class="badge rounded-pill bg-dark border border-info p-3"
+          >Dart</span
+        >
+        <span class="badge rounded-pill bg-dark border border-info p-3"
+          >Firebase</span
+        >
+        <span class="badge rounded-pill bg-dark border border-info p-3"
+          >UI/UX Design</span
+        >
+        <span class="badge rounded-pill bg-dark border border-info p-3"
+          >HTML & CSS</span
+        >
+      </div>
+    </section>
+
+    <section
+      class="container my-5 py-5 text-center"
+      id="contact"
+      data-aos="zoom-in"
+    >
+      <h2 class="text-info mb-4">Do You Have Any Project ?</h2>
+      <p class="text-secondary mb-5">Contact With Me Now</p>
+
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <a
+            href="https://wa.me/218947722005"
+            class="btn btn-outline-success btn-lg w-100 mb-3"
+          >
+            <i class="bi bi-whatsapp"></i> واتساب
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a
+            href="https://www.linkedin.com/in/ayham-saimouaa-8b28173a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            class="btn btn-outline-primary btn-lg w-100 mb-3"
+          >
+            <i class="bi bi-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="bg-black text-secondary py-4 text-center border-top border-secondary"
+    >
+      <div class="container">
+        <p class="mb-1">
+          Developed By Ayham Saimouaa Using HTML,CSS & BootStrap
+        </p>
+        <small>All Rights Reserved,Libya 2026&copy;</small>
+      </div>
+    </footer>
+
+    <script>
+      const textElement = document.getElementById("typing-text");
+      const textToType = "Ayham Saimouaa";
+      let index = 0;
+      function typeEffect() {
+        if (index < textToType.length) {
+          textElement.innerHTML += textToType.charAt(index);
+          index++;
+          setTimeout(typeEffect, 200);
+        }
+      }
+      window.onload = typeEffect;
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
