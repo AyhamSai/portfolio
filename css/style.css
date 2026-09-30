@@ -1,0 +1,106 @@
+:root {
+    --bg-color : #0d1117;
+    --card-bg : #161b22;
+    --accent-color : #58a6ff;
+    --text-primary : #f0f6fc;
+    --text-secondry : #8b949e;
+    --neon-glow : 0 0 10px rgba(88,166,255,0.5);
+}
+
+h2{
+    margin-top: 20px;
+    color: var(--accent-color);
+}
+
+
+
+body {
+    background-color: var(--card-bg) !important;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--text-primary);
+}
+.cursor {
+    font-weight: bold;
+    color: var(--accent-color);
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+}
+header {
+    width: 100%;
+    padding: 60px 20px;
+    background: linear-gradient(180deg,#161b22 0%,#0d1117 100%);
+    border-bottom: 1px solid #30363d;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+header h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: var(--accent-color);
+    text-shadow: var(--neon-glow);
+}
+header h3{
+    margin-bottom: 10px;
+    color: var(--text-secondry);
+}
+/* ////////////////////////////////// */
+
+.text-shadow {
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.project-card {
+    transition: transform 0.3s ease;
+
+}
+.project-card:hover{
+    transform: translateY(-5px);
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 15px 30px rgba(0, 123, 255, 0.2) !important;
+}
+.carousel-img{
+    height: 400px;
+    object-fit: contain;
+    background-color: #000;
+    padding: 10px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: var(--accent-color);
+}
+.btn-outline-info {
+    border-color: var(--accent-color);
+    transition: all 0.3s ease;
+}
+.btn-outline-info:hover {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    box-shadow: var(--neon-glow);
+}
+@media(max-width: 768px){
+    .carousel-img{
+        height: 300px;
+    }
+}
+.card-body .card-title {
+    color: var(--accent-color);
+    text-shadow: var(--neon-glow);
+}
+.card-body .card-text {
+    color: var(--text-secondry);
+    text-shadow: var(--neon-glow);
+}
+.carousel-control-prev,
+.carousel-control-next{
+    z-index: 20 !important;
+    width: 10%;
+}
+.carousel-item img{
+    pointer-events: none;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    filter: drop-shadow(0 0 5px rgba(88,166,255,0.8));
+}
